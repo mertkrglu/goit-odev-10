@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #fafafa;
+}
+
+.gallery {
+  max-width: 1128px;
+  margin: 0 auto;
+  padding: 24px;
+
+  list-style: none;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+.gallery-item {
+  overflow: hidden;
+}
+
+.gallery-link {
+  display: block;
+}
+
+.gallery-image {
+  width: 100%;
+  height: auto;
+  display: block;
+
+  transition: transform 250ms ease;
+}
+
+.gallery-image:hover {
+  transform: scale(1.05);
+}

@@ -37,3 +37,14 @@ button {
   border: none;
   cursor: pointer;
 }
+
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 18px;
+  color: #333;
+  text-decoration: none;
+  width: auto;
+}
